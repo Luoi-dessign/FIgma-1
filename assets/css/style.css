@@ -400,8 +400,16 @@ a {
   padding: 96px 300px;
   background: #2e2100;
 }
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
 .feedback-item {
   display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  transform: translateX(-100%);
+  transition: all ease 0.5s;
 }
 
 .feedback .info .avatar {
@@ -434,6 +442,7 @@ a {
   width: 6px;
   border-radius: 50%;
   background: #634700;
+  cursor: pointer;
 }
 .feedback-item .dot.active {
   background: var(--primary-color);
