@@ -41,7 +41,7 @@ a {
   text-decoration: none;
 }
 
-. {
+.heading {
   color: #171100;
   font-family: var(--font-heading);
   font-size: 3.8rem;
@@ -601,7 +601,7 @@ a {
   margin-top: 12px;
   font-size: 1.6rem;
   font-weight: 600;
-  line-height: 1.75; /* 175% */
+  line-height: 1.75;
 }
 
 .blogs .item .btn {
